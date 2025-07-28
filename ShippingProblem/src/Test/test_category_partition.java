@@ -38,11 +38,11 @@ class test_category_partition {
 			Arguments.of(499, 0, 0, List.of(0, 0, 499)),
 			
 			//two input
-			Arguments.of(0, 9, 5, List.of(5, 9, 0)),
-			Arguments.of(24, 10, 0, List.of(0, 10, 24)),
+			Arguments.of(0, 99, 49, List.of(49, 99, 0)),
+			Arguments.of(249, 99, 0, List.of(0, 99, 249)),
 			
 			//three input
-			Arguments.of(9, 8, 4, List.of(4, 8, 9)),
+			Arguments.of(149, 69, 34, List.of(34, 69, 149)),
 			
 			//over weight
 			//one input
@@ -51,11 +51,11 @@ class test_category_partition {
 			Arguments.of(501, 0, 0, List.of(-1)),
 			
 			//two input
-			Arguments.of(0, 11, 6, List.of(-1)),
-			Arguments.of(26, 10, 0, List.of(-1)),
+			Arguments.of(0, 101, 50, List.of(-1)),
+			Arguments.of(251, 100, 0, List.of(-1)),
 			
 			//three input
-			Arguments.of(11, 9, 5, List.of(-1)),
+			Arguments.of(166, 67, 56, List.of(-1)),
 			
 			//invalid input
 			//one input
